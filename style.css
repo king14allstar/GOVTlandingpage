@@ -1,0 +1,80 @@
+/* Main page container styling */
+.coming-soon-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #112e51; /* USWDS "primary-darker" color */
+    text-align: center;
+    padding: 2rem;
+    color: #ffffff;
+  }
+  
+  /* Content box styling */
+  .coming-soon-content {
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #112e51; /* USWDS "primary-darker" color */
+  }
+  
+  /* Heading styling */
+  .coming-soon-heading {
+    font-size: 2rem;
+    color: #005ea2; /* USWDS "primary" color */
+    margin: 1rem 0;
+  }
+  
+  /* Subtext styling */
+  .coming-soon-text {
+    font-size: 1rem;
+    color: #3e4c59; /* USWDS "base-dark" color */
+    line-height: 1.5;
+  }
+  
+  /* Link styling (USWDS compliant) */
+  .usa-prose a {
+    color: #005ea2; /* USWDS "primary" color */
+    text-decoration: underline;
+  }
+  
+  .usa-prose a:hover {
+    color: #002e5d; /* USWDS "primary-darkest" color */
+  }
+  
+  /* Animation - kept minimal */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .coming-soon-page {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  /* Ensure .usa-button applies correctly to links inside the usa-banner */
+.usa-banner__button.usa-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: #005ea2;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+
+  }
+  
+  .usa-banner__button.usa-button:hover {
+    background-color: #004080;
+    text-decoration: none;
+  }
+
+  
+
